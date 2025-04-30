@@ -31,6 +31,8 @@ In the first terminal
 $ cd client
 $ npm install (to install client-side dependencies)
 $ npm run start (to start the client), or ng serve
+
+First time running the project, must register Admin on login(register), to enter to admin area.
 ```
 ```
 In the second terminal
@@ -75,10 +77,10 @@ $ npm start (to start the server), or nodemon server
 ##  Key Features:
 
 - Admin Area
-- Add/Edit/Delete Products, Users and Staff.
+- Add/Edit/Delete Products,categorys,sales list, Users and Staff.
 - User Authenication
 - Admin  Authenication
-- See Product List
+- See Product List, category List, User LIst, Sales list
 
 
 ##  Technologies used
@@ -87,7 +89,7 @@ $ npm start (to start the server), or nodemon server
 
 ####  Frontend 
 
-- [Angular 14](https://angular.io/) - JavaScript library that is used for building user interfaces specifically for single-page applications.
+- [Angular 18.2.0](https://angular.io/) - JavaScript library that is used for building user interfaces specifically for single-page applications.
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.
 - [rxjs](https://angular.io/guide/rx-library) - Reactive Extensions Library for JavaScript.
 
@@ -113,5 +115,5 @@ $ npm start (to start the server), or nodemon server
 - Portfolio: 
 - Github: 
 - Sponsor: 
-- Linkedin:https://www.linkedin.com/in/sergio-moncada-72589883/
+- Linkedin:www.linkedin.com/in/sergio-moncada-rivas-4ab877351
 - Email: :mailbox_with_mail:[sergiogmoncada@yahoo.com](mailto:sergiogmoncada@yahoo.com)
