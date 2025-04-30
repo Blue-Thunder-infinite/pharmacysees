@@ -62,13 +62,14 @@ $ npm start (to start the server), or nodemon server
 ##  Screenshots:
 📸
 <br>
-<img src="./PROJECTIMAGES/IMAGE01.jpg" alt="project screenshot01" />
-<img src="./PROJECTIMAGES/IMAGE02.jpg" alt="project screenshot02" />
-<img src="./PROJECTIMAGES/IMAGE03.jpg" alt="project screenshot03" />
-<img src="./PROJECTIMAGES/IMAGE04.jpg" alt="project screenshot04" />
-<img src="./PROJECTIMAGES/IMAGE05.jpg" alt="project screenshot05" />
-<img src="./PROJECTIMAGES/IMAGE06.jpg" alt="project screenshot06" />
-<img src="./PROJECTIMAGES/IMAGE07.jpg" alt="project screenshot07" />
+<img src="./PROJECTIMAGES/home01.jpg" alt="project screenshot01" />
+<img src="./PROJECTIMAGES/image01.jpg" alt="project screenshot02" />
+<img src="./PROJECTIMAGES/login01.jpg" alt="project screenshot03" />
+<img src="./PROJECTIMAGES/sales01.jpg" alt="project screenshot04" />
+<img src="./PROJECTIMAGES/sales02.jpg" alt="project screenshot05" />
+<img src="./PROJECTIMAGES/homeAdmin01.jpg" alt="project screenshot06" />
+<img src="./PROJECTIMAGES/createproduct01.jpg" alt="project screenshot07" />
+<img src="./PROJECTIMAGES/productList.jpg" alt="project screenshot08" />
 <br>
 
 ##  Key Features:
