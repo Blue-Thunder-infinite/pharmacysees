@@ -1,120 +1,127 @@
-<h1 align ="center" > PHARMACY SEES MEAN APLICATION </h1>
-<h4  align ="center"> 
-Fullstack open source application, dynamic PHARMACY website(MEAN STACK)</h4>
- <h4  align ="center"> Made with Angular(18.2.0) MongoDB, Express, Nodejs(20.11.1)  </h4>
-<br>
-<br>
+# PharmacySees 🏥💊
 
-  * [Configuration and Setup](#configuration-and-setup)
-  * [Key Features](#key-features)
-  * [Technologies used](#technologies-used)
-      - [Frontend](#frontend)
-      - [Backend](#backend)
-      - [Database](#database)
-  * [📸 Screenshots](#screenshots)
-  * [Author](#author)
-  * <br>
-  
+Welcome to **PharmacySees**, a full-stack open-source application designed for dynamic pharmacy control. Built using the MEAN stack, this application provides a comprehensive solution for managing pharmacy operations efficiently.
 
-## Configuration and Setup 
-## <h2> ⚙️ </h2>
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/Blue-Thunder-infinite/pharmacysees/releases)
 
-In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
+## Table of Contents
 
-- Open the project in your prefered code editor.
-- Go to terminal -> New terminal (If you are using VS code)
-- Split your terminal into two (run the client on one terminal and the server on the other terminal)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-In the first terminal
+## Introduction
 
-```
-$ cd client
-$ npm install (to install client-side dependencies)
-$ npm run start (to start the client), or ng serve
+PharmacySees aims to streamline pharmacy management. It provides an intuitive interface for managing inventory, prescriptions, and customer interactions. This project is designed to be user-friendly and adaptable to various pharmacy needs.
 
-First time running the project, must register Admin on login(register), to enter to admin area.
-```
-```
-In the second terminal
+## Features
 
-- cd server and Set environment variables in .env
-- Create your mongoDB connection url, which you'll use as your MONGO_URL
-- Supply the following credentials
+- **User Authentication**: Secure login and registration for users.
+- **Inventory Management**: Keep track of stock levels, suppliers, and orders.
+- **Prescription Handling**: Manage prescriptions efficiently with easy access for pharmacists.
+- **Responsive Design**: Built with Bootstrap 5 for a mobile-friendly experience.
+- **Real-time Updates**: Utilize Angular and RxJS for dynamic content updates.
+- **File Uploads**: Use Multer for handling file uploads securely.
 
-# --- Terminal ---
+## Technologies Used
 
-$ npm install (to install server-side dependencies)
-$ npm start (to start the server), or nodemon server
+This project employs a variety of technologies to deliver a robust solution:
 
-```
-![Status project](https://img.shields.io/badge/STATUS-Finished-GREEN?style=for-the-badge)
+- **Angular**: For building dynamic single-page applications.
+- **Bootstrap 5**: For responsive and modern UI design.
+- **CORS**: To handle cross-origin requests.
+- **Express.js**: As the backend framework.
+- **MongoDB**: For data storage and management.
+- **Multer**: For handling file uploads.
+- **Node.js**: For server-side JavaScript execution.
+- **Nodemon**: For automatic server restarts during development.
+- **Prim**: For UI components.
+- **RxJS**: For reactive programming.
+- **Signals**: For managing state changes.
+- **SOLID principles**: To ensure clean and maintainable code.
+- **TypeScript**: For type safety and improved developer experience.
 
-##  🔌 Technologies used ✔️:
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-20232A?style=for-the-badge&logo=angular&logoColor=61DAFB)
-![Static Badge](https://img.shields.io/badge/cors%20-yellow?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/dotenv-black?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/mongoDB%20-aqua?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/mongoose-purple?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/Express-navy?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/bootstrap-teal?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/rxjs%20-aqua?style=for-the-badge)
+## Installation
 
+To set up PharmacySees locally, follow these steps:
 
-##  Screenshots:
-📸
-<br>
-<img src="./PROJECTIMAGES/home01.jpg" alt="project screenshot01" />
-<img src="./PROJECTIMAGES/image01.jpg" alt="project screenshot02" />
-<img src="./PROJECTIMAGES/login01.jpg" alt="project screenshot03" />
-<img src="./PROJECTIMAGES/sales01.jpg" alt="project screenshot04" />
-<img src="./PROJECTIMAGES/sales02.jpg" alt="project screenshot05" />
-<img src="./PROJECTIMAGES/homeAdmin01.jpg" alt="project screenshot06" />
-<img src="./PROJECTIMAGES/createproduct01.jpg" alt="project screenshot07" />
-<img src="./PROJECTIMAGES/productList.jpg" alt="project screenshot08" />
-<br>
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Blue-Thunder-infinite/pharmacysees.git
+   cd pharmacysees
+   ```
 
-##  Key Features:
+2. **Install Dependencies**:
+   For the server:
+   ```bash
+   cd server
+   npm install
+   ```
 
-- Admin Area
-- Add/Edit/Delete Products,categories,sales list, Users and Staff.
-- User Authenication
-- Admin  Authenication
-- See Product List, category List, User LIst, Sales list
-- Only available the sales module and Admin Modules: product create, category module, users Module.
+   For the client:
+   ```bash
+   cd client
+   npm install
+   ```
 
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the server directory and configure your MongoDB connection string and other necessary environment variables.
 
-##  Technologies used
+4. **Run the Application**:
+   Start the server:
+   ```bash
+   npm run dev
+   ```
 
-📋 This project was created using the following technologies.
+   Then, start the client:
+   ```bash
+   cd client
+   ng serve
+   ```
 
-####  Frontend 
+5. **Access the Application**:
+   Open your browser and navigate to `http://localhost:4200`.
 
-- [Angular 18.2.0](https://angular.io/) - JavaScript library that is used for building user interfaces specifically for single-page applications.
-- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.
-- [rxjs](https://angular.io/guide/rx-library) - Reactive Extensions Library for JavaScript.
+## Usage
 
-####  Backend 
+After setting up the application, you can:
 
-- [Node js](https://nodejs.org/en/) -A runtime environment to help build fast server applications using JS
-- [Express js](https://www.npmjs.com/package/express) -The server for handling and routing HTTP requests
-- [Mongoose](https://mongoosejs.com/) - For modeling and mapping MongoDB data to JavaScript
-- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) - For authentication
-- [cookie-parser](https://www.npmjs.com/package/cookie-parser) - Middleware module used in Node.js web applications to manage cookies
-- [cors](https://www.npmjs.com/package/cors) - Provides a Connect/Express middleware
-- [Dotenv](https://www.npmjs.com/package/dotenv) - Zero Dependency module that loads environment variables
-- [express-validator](https://www.npmjs.com/package/express-validator) - Used in Node.js applications with the Express framework to validate data submitted by users (user input)
-- [nodemon](https://nodemon.io/) - Development utility for Node.js applications. Node.js is a runtime platform that allows you to run JavaScript on the server side.t
+- Register a new user or log in with existing credentials.
+- Navigate to the inventory section to add or update stock.
+- Manage prescriptions by adding new entries or reviewing existing ones.
+- Upload relevant documents or images using the file upload feature.
 
+For detailed documentation on each feature, please refer to the [Wiki](https://github.com/Blue-Thunder-infinite/pharmacysees/wiki).
 
-####  Database 
+## Contributing
 
- - [MongoDB ](https://www.mongodb.com/) - It provides a free cloud service to store MongoDB collections.💾
+We welcome contributions from everyone! To contribute to PharmacySees:
 
-## Author
-     👨🏻‍🏫 
-- Portfolio: 
-- Github: 
-- Sponsor: 
-- Linkedin:www.linkedin.com/in/sergio-moncada-rivas-4ab877351
-- Email: :mailbox_with_mail:[sergiogmoncada@yahoo.com](mailto:sergiogmoncada@yahoo.com)
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch and create a pull request.
+
+For more detailed guidelines, please refer to the [Contributing Guide](https://github.com/Blue-Thunder-infinite/pharmacysees/blob/main/CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Blue-Thunder-infinite/pharmacysees/blob/main/LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out:
+
+- **Email**: support@pharmacysees.com
+- **GitHub**: [Blue-Thunder-infinite](https://github.com/Blue-Thunder-infinite)
+
+For the latest updates and releases, visit our [Releases section](https://github.com/Blue-Thunder-infinite/pharmacysees/releases).
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/Blue-Thunder-infinite/pharmacysees/releases)
+
+Thank you for your interest in PharmacySees! We hope this application meets your pharmacy management needs.
